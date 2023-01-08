@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+/* Setting the background of page */
+body{
+    background: #1E1E1E;
+}
+
+/*Web page specs as shown in the figma */
+#main_page{
+    position: relative;
+    width: 1728px;
+    height: 2358px;
+    background: #FFFFFF;
+}
+
+/* Information section building blocks as shown in figma */
+#rectangle1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1643px;
+    height: 648.57px;
+    left: 38px;
+    top: 47px;
+    border: 2px solid #000000;
+}
+
+#blog_part{
+    position: absolute;
+    width: 1540.51px;
+    height: 613.54px;
+    left: 89px;
+    top: 94.46px;
+}
+
+#blog_heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77.45px;
+    text-decoration-line: underline;
+    text-underline-offset: 25%;
+    color: #000000;
+    margin-top: 0%;
+}
+
+#blog_para{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 550;
+    font-size: 40px;
+    line-height: 48.41px;
+    color: #000000;
+}
+
+#blog_link{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 550;
+    font-size: 40px;
+    line-height: 48.41px;
+    color: #000000;
+    text-decoration-line: underline;
+    text-underline-offset: 25%;
+}
+
+/* Creating the styles for image section */
+#image_part{
+    position: absolute;
+    width: 1051px;
+    height: 894px;
+    left: 58px;
+    top: 742px;
+}
+
+#more_images{
+    position: absolute;
+    width: 245px;
+    height: 48px;
+    left: 58px;
+    top: 1670px;
+}
+
+/* Creating the styles for the properties section */
+#prop_part{
+    position: absolute;
+    width: 1623px;
+    height: 469px;
+    left: 58px;
+    top: 1795px;
+}
+
+#list_part{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 550;
+    font-size: 40px;
+    line-height: 70px;
+    color: #000000;
+    margin-left: 10px;
+}
